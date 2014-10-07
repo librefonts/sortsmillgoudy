@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [SortsMillGoudy-Italic.ttf.ttx, SortsMillGoudy-Regular.ttf.ttx, src/SortsMillGoudy-Regular-TTF.sfd,
+  src/SortsMillGoudy-Italic-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
